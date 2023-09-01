@@ -5,6 +5,7 @@ import About from './components/About';
 import ForceNextLevel from './components/ForceNextLevel';
 import Death from './components/Death';
 import LookAround from './components/LookAround'
+import PickUpSword from './components/PickUpSword.jsx'
 
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
       <Route path="/about" element={<About />}/>
       <Route path="/forceNextLevel" element={<ForceNextLevel />}/>
       <Route path="/death" element={<Death />}/>
+      <Route path ="/pickupsword" element={<PickUpSword/>}/>
+      <Route path ="/look" element={<LookAround/>}/>
+      <Route path ="/look" element={<LookAround/>}/>
       <Route path ="/look" element={<LookAround/>}/>
 
     </Routes>
